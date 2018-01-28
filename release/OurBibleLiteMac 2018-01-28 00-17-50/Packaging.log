@@ -1,0 +1,65 @@
+2018-01-27 16:17:21 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9f4a096cb0; archive(resolved)='<IDEArchive: 0x7f9f535d8b40>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team(resolved)='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	Chain (10, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9f4a096cb0; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9f47a29f60; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f5c0eed90; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f4a0d1e00; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f46944aa0; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f478a5a00; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f482591d0; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f4523ce20; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='<IDEProvisioningBasicTeam 0x7f9f5e91d820: teamID: LW2C2PTSH8, teamName: Lijun Ni>'>
+	<IDEDistributionContext: 0x7f9f5dc3cb10; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f9f5c797750>', team='(null)'>
+	<IDEDistributionContext: 0x7f9f480aa240; archive = '<IDEArchive: 0x7f9f535d8b40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9f4a096cb0>
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionCopyItemStep
+2018-01-27 16:17:21 +0000  Running /usr/bin/ditto '-V' '/Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app' '/var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/Root/Applications/OurBibleLiteMac.app'
+2018-01-27 16:17:21 +0000  >>> Copying /Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app 
+2018-01-27 16:17:21 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2724 bytes for ./Contents/_CodeSignature/CodeResources
+copying file ./Contents/Info.plist ... 
+1555 bytes for ./Contents/Info.plist
+copying file ./Contents/MacOS/OurBibleLiteMac ... 
+37808 bytes for ./Contents/MacOS/OurBibleLiteMac
+copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2018-01-27 16:17:21 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2018-01-27 16:17:21 +0000  /usr/bin/ditto exited with 0
+2018-01-27 16:17:21 +0000  164536 bytes for ./Contents/Resources/AppIcon.icns
+copying file ./Contents/Resources/archived-expanded-entitlements.xcent ... 
+420 bytes for ./Contents/Resources/archived-expanded-entitlements.xcent
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-01-27 16:17:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9f44917020 'com.sinri.OurBibleLiteMac' '<DVTFilePath:0x7f9f47d4dad0:'/Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app'>'>
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-01-27 16:17:21 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-27 16:17:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionSymbolsStep
+2018-01-27 16:17:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionAppThinningStep
+2018-01-27 16:17:21 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionODRStep
+2018-01-27 16:17:21 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-01-27 16:17:21 +0000  Running /usr/bin/xattr '-crs' '/var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/Root/Applications/OurBibleLiteMac.app'
+2018-01-27 16:17:27 +0000  /usr/bin/xattr exited with 0
+2018-01-27 16:17:27 +0000  Processing step: IDEDistributionCodesignStep
+2018-01-27 16:17:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9f44917020 'com.sinri.OurBibleLiteMac' '<DVTFilePath:0x7f9f47d4dad0:'/Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9f448bb5c0>: {
+}
+2018-01-27 16:17:27 +0000  Entitlements for <IDEDistributionItem: 0x7f9f44917020 'com.sinri.OurBibleLiteMac' '<DVTFilePath:0x7f9f47d4dad0:'/Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}
+2018-01-27 16:17:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9f44917020 'com.sinri.OurBibleLiteMac' '<DVTFilePath:0x7f9f47d4dad0:'/Users/Sinri/Library/Developer/Xcode/Archives/2018-01-27/OurBibleLiteMac 2018-1-27 23.58.xcarchive/Products/Applications/OurBibleLiteMac.app'>'> to: /var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/entitlementsMhB1vx
+2018-01-27 16:17:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '042AE7AD9561FE738F6EAB3F0B42A151BA202C87' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/entitlementsMhB1vx' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "LW2C2PTSH8" ))' '/var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/Root/Applications/OurBibleLiteMac.app'
+2018-01-27 16:17:29 +0000  /var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/Root/Applications/OurBibleLiteMac.app: replacing existing signature
+2018-01-27 16:17:33 +0000  /var/folders/5j/cfnk46zx27993xklrg3fgtm00000gn/T/XcodeDistPipeline.E7L/Root/Applications/OurBibleLiteMac.app: signed app bundle with Mach-O thin (x86_64) [com.sinri.OurBibleLiteMac]
+2018-01-27 16:17:33 +0000  /usr/bin/codesign exited with 0
+2018-01-27 16:17:33 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-01-27 16:17:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-27 16:17:33 +0000  Processing step: IDEDistributionSkipPackagingStep
+2018-01-27 16:17:33 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-01-27 16:17:33 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
