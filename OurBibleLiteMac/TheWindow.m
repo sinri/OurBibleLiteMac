@@ -10,6 +10,12 @@
 
 @implementation TheWindow
 
+-(BOOL)canBecomeKeyWindow{
+    return YES;
+}
 
+-(BOOL)canBecomeMainWindow{
+    return YES;
+}
 
 @end

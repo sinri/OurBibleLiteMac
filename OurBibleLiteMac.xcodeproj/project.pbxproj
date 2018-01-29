@@ -16,6 +16,10 @@
 		2F16E7FB201DEF2200B58532 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F16E7F9201DEF2200B58532 /* Fabric.framework */; };
 		2F16E7FE201E023500B58532 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F16E7FC201E023400B58532 /* README.md */; };
 		2F16E7FF201E023500B58532 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2F16E7FD201E023500B58532 /* LICENSE */; };
+		2F16E802201E055500B58532 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16E801201E055500B58532 /* MainMenu.m */; };
+		2F16E805201E07F600B58532 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16E804201E07F600B58532 /* AboutViewController.m */; };
+		2F6CF426201EB382006C7C2C /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CF424201EB382006C7C2C /* AboutWindowController.m */; };
+		2F6CF427201EB382006C7C2C /* AboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6CF425201EB382006C7C2C /* AboutWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,13 @@
 		2F16E7F9201DEF2200B58532 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		2F16E7FC201E023400B58532 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2F16E7FD201E023500B58532 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F16E800201E055500B58532 /* MainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		2F16E801201E055500B58532 /* MainMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		2F16E803201E07F600B58532 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2F16E804201E07F600B58532 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		2F6CF423201EB382006C7C2C /* AboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
+		2F6CF424201EB382006C7C2C /* AboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
+		2F6CF425201EB382006C7C2C /* AboutWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,13 @@
 				2F16E7EE201C88D900B58532 /* OurBibleLiteMac.entitlements */,
 				2F16E7F4201C9F6F00B58532 /* TheWindow.h */,
 				2F16E7F5201C9F6F00B58532 /* TheWindow.m */,
+				2F16E800201E055500B58532 /* MainMenu.h */,
+				2F16E801201E055500B58532 /* MainMenu.m */,
+				2F16E803201E07F600B58532 /* AboutViewController.h */,
+				2F16E804201E07F600B58532 /* AboutViewController.m */,
+				2F6CF423201EB382006C7C2C /* AboutWindowController.h */,
+				2F6CF424201EB382006C7C2C /* AboutWindowController.m */,
+				2F6CF425201EB382006C7C2C /* AboutWindowController.xib */,
 			);
 			path = OurBibleLiteMac;
 			sourceTree = "<group>";
@@ -151,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F16E7FF201E023500B58532 /* LICENSE in Resources */,
+				2F6CF427201EB382006C7C2C /* AboutWindowController.xib in Resources */,
 				2F16E7FE201E023500B58532 /* README.md in Resources */,
 				2F16E7E7201C88D500B58532 /* Assets.xcassets in Resources */,
 			);
@@ -179,6 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6CF426201EB382006C7C2C /* AboutWindowController.m in Sources */,
+				2F16E805201E07F600B58532 /* AboutViewController.m in Sources */,
+				2F16E802201E055500B58532 /* MainMenu.m in Sources */,
 				2F16E7E5201C88D500B58532 /* ViewController.m in Sources */,
 				2F16E7ED201C88D700B58532 /* main.m in Sources */,
 				2F16E7E2201C88D300B58532 /* AppDelegate.m in Sources */,

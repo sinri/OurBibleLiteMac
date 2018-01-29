@@ -64,6 +64,7 @@
 
 - (void)windowDidResize:(NSNotification *)aNotification
 {
+    if([[NSApplication sharedApplication]keyWindow]==_appDelagate.window){
     // 调整NSWindow上NSView的frame
     CGFloat width=[_appDelagate window].frame.size.width;
     CGFloat height=[_appDelagate window].frame.size.height;
@@ -80,6 +81,7 @@
     [self.view setFrame:frame];
     
     [self handleNotificationOfResize];
+    }
 }
 
 
